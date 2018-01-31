@@ -1,0 +1,1281 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+/* 头部开始 */
+.toubu{
+	width: 100%;
+	height: 40px;
+	background: #333333;
+}
+.toubu1{
+	width: 1226px;
+	height: 100%;
+	margin: 0 auto;
+}
+.zuobu{
+	width: 638px;
+	height: 40px;
+	float: left;
+}
+.youbu{
+	width: 330px;
+	height: 40px;
+	float: right;
+}
+.wen{
+	float: left;
+	font-size: 12px;
+	color: #b0b0b0;
+	padding-left: 8px;
+	padding-right: 9px;
+	border-right: 1px solid #5a5858;
+	margin-top: 12px;
+}
+.zuobu .wen:first-child{
+	padding-left: 0;
+}
+.zuobu .wen:last-child{
+	padding-right: 0;
+	border-right: 0;
+}
+.wen:hover{
+	color: #ffffff;
+}
+.wen1{
+	float: left;
+	font-size: 12px;
+	color: #b0b0b0;
+	padding-left: 8px;
+	padding-right: 9px;
+	border-right: 1px solid #5a5858;
+	margin-top: 12px;
+}
+.youbu .wen1:first-child{
+	padding-left: 0;
+}
+.youbu .wen1:last-child{
+	padding-right: 0;
+	border-right: 0;
+}
+.wen1:hover{
+	color: #ffffff;
+}
+.gouwuche{
+	display: block;
+	width: 120px;
+	height: 40px;
+	background: #424242;
+	float: right;
+}
+.che{
+	width: 20px;
+	height: 14px;
+	background: red;
+	margin-top: 14px;
+	margin-left: 16px;
+	float: left;
+	background: url('../img/xiaoheiche.png')no-repeat center;
+	background-size: 20px 14px;
+}
+.zi{
+	float: left;
+	font-size: 12px;
+	color: #b0b0b0;
+	margin-left: 4px;
+	margin-top: 12px;
+}
+.gouwuche:hover{
+	background: #fff;
+}
+.gouwuche:hover .che{
+	background: url('../img/xiaohuangche.png')no-repeat center;
+	background-size: 20px 14px;
+}
+.gouwuche:hover .zi{
+    color: #ff6700;
+}
+
+/* 头部结束 */
+
+/* 导航开始 */
+.dao{
+	width: 1226px;
+	height: 100px;
+	background: #ffffff;
+	margin: 0 auto;
+}
+.daotu{
+	width: 55px;
+	height: 55px;
+	background: #fff;
+	display: block;
+	margin-top: 22px;
+	float: left;
+}
+.xm{
+	width: 526px;
+	height: 54px;
+	float: left;
+	margin-top: 22px;
+	margin-left: 188px;
+}
+.xm1{
+	float: left;
+	font-size: 12px;
+	color: #15161b;
+	padding-left: 8px;
+	padding-right: 9px;
+	margin-top: 21px;
+}
+.xm1:hover{
+	color: #ff6700;
+}
+.sou{
+	width: 296px;
+	height: 50px;
+	float: left;
+	margin-left: 161px;
+	margin-top: 25px;
+}
+.sousuo{
+	width: 243px;
+	height: 48px;
+	border: 1px solid #e0e0e0;
+	float: left;
+}
+.sousuo{
+	border-right: 0;
+}
+.kuang1{
+	display: block;
+	width: 53px;
+	height: 18px;
+	background: #eeeeee;
+	margin-left: 93px;
+	margin-top: 15px;
+	font-size: 11px;
+	color: #757575;
+	text-align: center;
+	line-height: 18px;
+	float: left;
+}
+.kuang2{
+	display: block;
+	width: 82px;
+	height: 18px;
+	background: #eee;
+	margin-left: 5px;
+	margin-top: 15px;
+	font-size: 11px;
+	color: #757575;
+	text-align: center;
+	line-height: 18px;
+	float: left;
+}
+.kuang1:hover{
+	background: #ff6700;
+	color: #fff;
+}
+.kuang2:hover{
+	background: #ff6700;
+	color: #fff;
+}
+.tubiao{
+	width: 50px;
+	height: 48px;
+	float: left;
+    border: 1px solid #e0e0e0;
+}
+.tubiao1{
+	display: block;
+	width: 50px;
+	height: 48px;
+	background: url('../img/sousuo1_03.png')no-repeat center;
+	background-size: 50px 48px;
+}
+.tubiao:hover .tubiao1{
+	background: url('../img/sousuo2_03.png')no-repeat center;
+	background-size: 50px 48px;
+}
+/* 导航结束 */
+
+/* <!-- banner开始 --> */
+.banner{
+	width: 1226px;
+	height: 460px;
+	margin: 0 auto;
+	position: relative;
+}
+.lbt{
+	width: 100%;
+	height: 100%;
+    position: relative;
+}
+.datu{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.datu1{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.lunbotu{
+	width: 100%;
+	height: 100%;
+}
+.zl{
+	width: 234px;
+	height: 440px;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 20px;
+}
+.zlb{
+	width: 234px;
+	height: 42px;
+
+}
+.lbl{
+	font-size: 12px;
+	color: #fff;
+	line-height: 42px;
+	margin-left: 29px;
+	float: left;
+}
+.lbr{
+	font-size: 12px;
+	color: #fff;
+	line-height: 42px;
+	float: right;
+	margin-right: 14px;
+}
+.zlb:hover{
+	background: #ff6700;
+}
+.lbd{
+	width: 90px;
+    height: 10px;
+    position: absolute;
+    right: 35px;
+    bottom: 25px;
+}
+.dian1{
+	width: 6px;
+	height: 6px;
+	background: #15161b;
+	border-radius: 50%;
+	border: 2px solid #5b5c5f;
+	float: left;
+    margin-right: 10px;
+}
+.dian2{
+	margin-right: 0;
+}
+.zjt{
+	width: 36px;
+	height: 62px;
+	display: block;
+	position: absolute;
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	line-height: 62px;
+	margin-left: 234px;
+	left: 0;
+	top: 0;
+	bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.yjt{
+	width: 36px;
+	height: 62px;
+	display: block;
+	position: absolute;
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	line-height: 62px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.zjt:hover{
+	background: rgba(0, 0, 0, 0.5);
+}
+.yjt:hover{
+	background: rgba(0, 0, 0, 0.5);
+}
+
+
+/* <!-- banner结束--> */
+
+/* 小米单品开始 */
+.xmdp{
+	width: 1226px;
+	height: 398px;
+	margin: 0 auto;
+}
+.shang{
+	width: 1226px;
+	height: 58px;
+	background: #ffffff;
+}
+.mxdp{
+	font-size: 22px;
+	line-height: 58px;
+	float: left;
+}
+.anniu{
+	width: 71px;
+	height: 24px;
+	background: #ffffff;
+	float: right;
+	margin-top: 17px;
+}
+.anniul{
+	width: 34px;
+	height: 22px;
+	display: block;
+	border: 1px solid #e0e0e0;
+	border-right: 0;
+	float: left;
+	font-size: 12px;
+    color: #e8e3e0;
+    text-align: center;
+    line-height: 22px;
+}
+.anniuR{
+	width: 34px;
+	height: 22px;
+	display: block;
+	border: 1px solid #e0e0e0;
+	float: left;
+	text-align: center;
+}
+.xia{
+	width: 1226px;
+	height: 340px;
+	background: #ffffff;
+}
+.pailie{
+	width: 234px;
+	height: 339px;
+	background: #fafafa;
+	float: left;
+	margin-right: 14px;
+}
+.xia .pailie:last-child{
+	margin-right: 0;
+	border-top: 1px solid #00c0a5;
+}
+.xia .pailie:first-child{
+	border-top: 1px solid #ffac13;
+}
+.xia .pailie:nth-child(2){
+	border-top: 1px solid #83c44e;
+}
+.xia .pailie:nth-child(3){
+	border-top: 1px solid #2196f3;
+}
+.xia .pailie:nth-child(4){
+	border-top: 1px solid #e53935;
+}
+.xmdp_tu{
+	width: 158px;
+	height: 158px;
+	background: pink;
+	display: block;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+.text{
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-top: 25px;
+	font-size: 12px;
+	color: #212121;
+}
+.text2{
+	width: 100%;
+	margin-top: 12px;
+	text-align: center;
+	font-size: 10px;
+	color: #b0b0b0;
+}
+.jiage{
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+	font-size: 12px;
+	color: #ff6709;
+}
+    /* 小米单品结束 */
+
+    /* 小米智能硬件开始 */
+body{
+	background: #fff;
+}
+.zonghezi{
+	width: 100%;
+	background: #f5f5f5;
+}
+.zong{
+	width: 1226px;
+	height: 674px;
+	background: #f5f5f5;
+	margin: 0 auto;
+}
+.top{
+	width: 1226px;
+	height: 60px;
+	background: #f5f5f5;
+}
+.bottom{
+	width: 1226px;
+	height: 614px;
+	background: #f5f5f5;
+}
+.zuo{
+	width: 234px;
+	height: 614px;
+	background: #cef2f2;
+	float: left;
+}
+.you{
+	width: 978px;
+	height: 614px;
+	background: #f5f5f5;
+	float: right;
+}
+.you1{
+	width: 234px;
+	height: 301px;
+	background: #ffffff;
+	float: left;
+	margin-right: 14px;
+	margin-bottom: 12px;
+	position: relative;
+	overflow: hidden;
+	transition: 1s;
+}
+.youxia{
+	display: block;
+	width: 100%;
+	height: 90px;
+    background: #ff6709;
+    position: absolute;
+    bottom: -90px;
+    left: 0px;
+    transition: 1s;
+}
+.youxiazi{
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 15px;
+    margin-top: 14px;
+}
+.youxiazi1{
+    font-size: 14px;
+    color: #ffc299;
+    margin-left: 15px;
+    margin-top: 14px;
+}
+.you1:hover .youxia{
+	bottom: 0;
+}
+.you .you1:last-child{
+	margin-right: 0;
+}
+.you .you1:nth-child(4){
+	margin-right: 0;
+}
+.top_text{
+	font-size: 20px;
+	line-height: 60px;
+	float: left;
+}
+.top_text1{
+	width: 100px;
+	height: 60px;
+	float: right;
+}
+.chakan{
+	width: 64px;
+	height: 16px;
+	font-size: 16px;
+	color: #424242;
+	line-height: 60px;
+}
+.yuan{
+	width: 20px;
+	height: 20px;
+	border-radius: 50px;
+	background: #b0b0b0;
+	display: block;
+	float: right;
+    margin-top: 20px;
+	text-align: center;
+	line-height: 20px;
+}
+.yt{
+	width: 160px;
+	height: 160px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.yt_text{
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-top: 22px;
+	font-size: 12px;
+	color: #333333;
+}
+.yt_text1{
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 10px;
+	color: #b0b0b0;
+}
+.jiaqian{
+	width: 100%;
+	text-align: center;
+	margin-top: 18px;
+	font-size: 12px;
+	color: #ff6700;
+}
+/* 小米智能硬件结束 */
+
+/* 小米搭配开始 */
+.dapei{
+    width: 1226px;
+	height: 674px;
+	background: #f5f5f5;
+	margin: 0 auto;
+}
+.dingbu{
+	width: 1226px;
+	height: 60px;
+	background: #f5f5f5;
+}
+.youda{
+	width: 248px;
+	height: 28px;
+	float: right;
+	margin-top: 16px;
+}
+.rm{
+	float: left;
+	font-size: 12px;
+	color: #424242;
+	margin-left: 30px;
+	margin-top: 6px;
+}
+.dingbu .rm:first-child{
+	color: #ff6700;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #ff6700;
+	margin-left: 0;
+}
+.dibu{
+    width: 1226px;
+	height: 614px;
+	background: #f5f5f5;
+}
+.left{
+	width: 234px;
+	height: 614px;
+	background: #f5f5f5;
+	float: left;
+}
+.right{
+	width: 978px;
+	height: 614px;
+	background: #f5f5f5;
+	float: right;
+}
+.zuoshang{
+	width: 234px;
+	height: 300px;
+	float: left;
+}
+.zuoxia{
+	width: 234px;
+	height: 300px;
+	margin-top: 14px;
+	float: left;
+}
+.youtu{
+	width: 234px;
+	height: 301px;
+	background: #ffffff;
+	float: left;
+	margin-right: 14px;
+	margin-bottom: 12px;
+}
+.right .youtu:last-child{
+	margin-right: 0;
+	background: #f5f5f5;
+}
+.right .youtu:nth-child(4){
+	margin-right: 0;
+}
+.dp{
+	font-size: 20px;
+	line-height: 60px;
+	float: left;
+}
+.shang1{
+	width: 234px;
+	height: 143px;
+	background: #ffffff;
+	float: left;
+	margin-bottom: 15px;
+}
+.xia1{
+	width: 234px;
+	height: 143px;
+	background: #ffffff;
+	float: left;
+}
+.shang2{
+	width: 92px;
+	height: 38px;
+	background: #ffffff;
+	margin-top: 44px;
+	margin-left: 30px;
+	float: left;
+	display: block;
+}
+.xiaomi{
+	font-size: 12px;
+	color: #000;
+	float: left;
+}
+.qian{
+	font-size: 12px;
+	color: #ff6700;
+	float: left;
+	margin-top: 8px;
+}
+.tupian1{
+	width: 103px;
+	height: 143px;
+	display: block;
+	float: right;
+}
+.xia2{
+    width: 71px;
+	height: 36px;
+	background: #ffffff;
+	margin-top: 55px;
+	margin-left: 30px;
+	float: left;
+}
+.liulan{
+	font-size: 14px;
+	color: #000;
+	float: left;
+	display: block;
+}
+.remen{
+	font-size: 11px;
+	color: #ff6700;
+	float: left;
+	margin-top: 7px;
+}
+/* 小米搭配结束 */
+
+/* 热评产品开始 */
+.reping{
+	width: 1226px;
+	height: 474px;
+	background: #f5f5f5;
+	margin: 0 auto;
+}
+.top_rp{
+	width: 1226px;
+	height: 59px;
+	background: #f5f5f5;
+}
+.bottom_rp{
+	width: 1226px;
+	height: 415px;
+	background: #f5f5f5;
+}
+.tu{
+	width: 296px;
+	height: 415px;
+	float: left;
+	margin-right: 14px;
+}
+.bottom_rp .tu:last-child{
+	margin-right: 0px;
+}
+.rp{
+	font-size: 20px;
+	line-height: 59px;
+	float: left;
+}
+.shangtu{
+	width: 269px;
+	height: 220px;
+	float: left;
+}
+.pinglun{
+	width: 238px;
+	height: 167px;
+	background: #ffffff;
+	float: left;
+	padding-top: 28px;
+	padding-left: 29px;
+	padding-right: 29px;
+}
+.wenzi{
+	height: 72px;
+	font-size: 12px;
+	line-height: 24px;
+	color: #333333;
+	display: block;
+}
+.wenzi2{
+	font-size: 11px;
+	color: #b0b0b0;
+	margin-top: 25px;
+}
+.txet3{
+	width: 178px;
+	height: 12px;
+	background: #ffffff;
+	margin-top: 16px;
+}
+.wenzi3{
+	font-size: 12px;
+	color: #333333;
+	border-right: 1px solid #cfcdcd;
+	float: left;
+	padding-right: 10px;
+	margin-right: 12px;
+}
+.jia{
+	font-size: 12px;
+	color: #ff6700;
+}
+/* 小米热评结束 */
+
+/* 中间长条开始 */
+.zhongjian{
+	width: 100%;
+	height: 60px;
+    background: #f5f5f5;
+}
+/* 中间长条结束 */
+
+/* 小米内容开始 */
+.neirong{
+	width: 1226px;
+	height: 479px;
+	background: #f5f5f5;
+	margin: 0 auto;
+}
+.nrs{
+	width: 100%;
+	height: 59px;
+    font-size: 21px;
+    color: #333333;
+    line-height: 59px;  
+}
+.nrx{
+	width: 100%;
+	height: 420px;
+}
+.nrx1{
+	width: 296px;
+	height: 419px;
+	background: #ffffff;
+	float: left;
+	margin-right: 14px;
+	position: relative;
+	overflow: hidden;
+	transition: 1s;
+	position: relative;
+}
+.nrx1:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.6)
+}
+.nrx .nrx1:last-child{
+	margin-right: 0;
+	border-top: 1px solid #2196f3;
+}
+.nrx .nrx1:first-child{
+	border-top: 1px solid #ffac13;
+}
+.nrx .nrx1:nth-child(2){
+	border-top: 1px solid #83c44e;
+}
+.nrx .nrx1:nth-child(3){
+	border-top: 1px solid #e53935;
+}
+.tushu{
+	font-size: 15px;
+	color: #ffac13;
+	margin-top: 50px;
+	text-align: center;
+}
+.hlbt{
+	display: block;
+	font-size: 21px;
+	color: #333333;
+	text-align: center;
+	margin-top: 14px;
+}
+.hlbt1{
+	display: block;
+	font-size: 12px;
+	color: #b0b0b0;
+	text-align: center;
+	margin-top: 10px;
+}
+.hlbt2{
+	display: block;
+	font-size: 12px;
+	color: #b0b0b0;
+	text-align: center;
+	margin-top: 9px;
+}
+.hlbt3{
+	display: block;
+	font-size: 12px;
+	color: #333333;
+	text-align: center;
+	margin-top: 19px;
+	font-weight: bold;
+}
+.hltp{
+	display: block;
+	width: 216px;
+	height: 154px;
+    margin: 0 auto;
+    margin-top: 21px;
+}
+.xiaoyuhao{
+	width: 25px;
+	height: 60px;
+	background: #d9d9d9;
+	position: absolute;
+	font-size: 18px;
+	color: #fafafa;
+	text-align: center;
+	line-height: 60px;
+	left: 0;
+	top: 0;
+	bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.dayuhao{
+	width: 25px;
+	height: 60px;
+	display: block;
+	background: #d9d9d9;
+	position: absolute;
+	font-size: 18px;
+	color: #fafafa;
+	text-align: center;
+	line-height: 60px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.xiaoyuhao:hover{
+	background: rgba(0, 0, 0, 0.5);
+}
+.dayuhao:hover{
+	background: rgba(0, 0, 0, 0.5);
+}
+.lbh{
+	width: 76px;
+    height: 10px;
+    position: absolute;
+    right: 109px;
+    bottom: 25px;
+}
+.quan{
+	width: 6px;
+	height: 6px;
+	border-radius: 50px;
+    background: #ffffff;
+    border: 2px solid #ff6700;
+    float: left;
+    margin-right: 28px;
+}
+.xd1{
+	width: 6px;
+	height: 6px;
+	background: #b0b0b0;
+	border-radius: 50%;
+	float: left;
+    margin-right: 26px;
+    margin-top: 2px;
+}
+.xd2{
+	margin-right: 0px;
+}
+.xd1:hover{
+    background: #ff6700;
+}
+.tushu1{
+	font-size: 15px;
+	color: #83c44e;
+	margin-top: 50px;
+	text-align: center;
+}
+.hlbt4{
+	display: block;
+	font-size: 12px;
+	color: #333333;
+	text-align: center;
+	margin-top: 39px;
+	font-weight: bold;
+}
+.lbh1{
+	width: 110px;
+    height: 10px;
+    position: absolute;
+    right: 94px;
+    bottom: 25px;
+}
+.tushu2{
+	font-size: 15px;
+	color: #e53935;
+	margin-top: 50px;
+	text-align: center;
+}
+.tushu3{
+	font-size: 15px;
+	color: #2196f3;
+	margin-top: 50px;
+	text-align: center;
+}
+.hltp1{
+	display: block;
+	width: 216px;
+	height: 154px;
+    margin: 0 auto;
+    margin-top: 71px;
+}
+/* 小米内容结束 */
+
+/* 小米底部开始 */
+.ditu{
+	width: 1226px;
+	height: 272px;
+	margin: 0 auto;
+}
+.ditu_top{
+	width: 100%;
+	height: 79px;
+	background: #fff;
+	border-bottom: 1px solid #e0e0e0;
+}
+.zddt{
+	width: 243px;
+	height: 25px;
+	background: #fff;
+	float: left;
+	margin-top: 27px;
+	border-right: 1px solid #e0e0e0;
+}
+.banshou{
+	display: block;
+	width: 160px;
+	height: 25px;
+	margin-left: 58px;
+	float: left;
+}
+#banshou1{
+	font-size: 25px;
+	color: #616161;
+	line-height: 25px;
+	float: left;
+	margin-right: 6px;
+}
+.yuyue{
+	font-size: 16px;
+	color: #616161;
+	line-height: 25px;
+	float: left;
+}
+.banshou:hover #banshou1{
+	color: #ff6700;
+}
+.banshou:hover .yuyue{
+	color: #ff6700;
+}
+.ditu_top .zddt:last-child{
+	border-right:  0;
+	width: 250px;
+}
+.ditu_bottom{
+	width: 100%;
+	height: 192px;
+	background: #ffffff;
+}
+.youzi{
+	width: 251px;
+	height: 112px;
+	float: right;
+	margin-top: 40px;
+	font-size: 16px;
+	color: #ff6700;
+	text-align: center;
+	border-left: 1px solid #e0e0e0;
+}
+.zhouyi{
+	font-size: 11px;
+	color: #616161;
+	text-align: center;
+	margin-top: 12px;
+}
+.jin{
+	font-size:12px;
+	color: #616161;
+	text-align: center;
+	margin-top: 7px; 
+}
+.fangkuang{
+	display: block;
+	width: 118px;
+	height: 28px;
+	border: 1px solid #ff6700;
+	margin-top: 7px;
+	margin-left: 65px;
+}
+.xinxi{
+	width: 12px;
+	height: 11px;
+	margin-left: 9px;
+	margin-top: 8px;
+	float: left;
+	background: url('../img/xinxi1.png')no-repeat center;
+	background-size: 12px 14px;
+}
+.kefu{
+	float: left;
+	font-size: 12px;
+	color: #ff6700;
+	margin-left: 3px;
+	margin-top: 6px;
+}
+.fangkuang:hover{
+	background: #ff6700;
+}
+.fangkuang:hover .xinxi{
+	background: url('../img/xinxi.png')no-repeat center;
+	background-size: 12px 14px;
+}
+.fangkuang:hover .kefu{
+	color: #fff;
+}
+.zuozi{
+	width: 974px;
+	height: 192px;
+	background: #fff;
+	float: left;
+}
+.zuozi1{
+	width: 160px;
+	height: 192px;
+	background: #fff;
+	float: left;
+	position: relative;
+}
+.zuozi2{
+    font-size: 12px;
+    color: #424242;
+    position: absolute;
+    top: 41px;
+}
+.zuozi3{
+	font-size: 11px;
+	color: #757575;
+	position: absolute;
+	top: 85px;
+}
+.zuozi4{
+	font-size: 11px;
+	color: #757575;
+	position: absolute;
+	top: 113px;
+}
+.zuozi5{
+	font-size: 11px;
+	color: #757575;
+	position: absolute;
+	top: 141px;
+}
+.zuozi3:hover{
+	color: #ff6700;
+}
+.zuozi4:hover{
+	color: #ff6700;
+}
+.zuozi5:hover{
+	color: #ff6700;
+}
+/* 小米底部结束 */
+
+/* 小米最下面开始 */
+.zuixiamian{
+	width: 100%;
+	background: #f5f5f5;
+}
+.zuixia{
+	width: 1226px;
+	height: 166px;
+	background: #f5f5f5;
+    margin: 0 auto;
+}
+.zuixial{
+	width: 56px;
+	height: 57px;
+	background: red;
+	margin-top: 30px;
+	float: left;
+}
+.xmtb{
+	width: 55px;
+	height: 55px;
+	margin-top: 1px;
+}
+.changhezi{
+	width: 770px;
+	height: 54px;
+	margin-top: 33px;
+	float: left;
+}
+.xiaochanghe{
+	width: 770px;
+	height: 14px;
+	margin-left: 10px;
+	float: left;
+}
+.shiyi{
+	float: left;
+	font-size: 12px;
+	color: #757575;
+	padding-left: 6px;
+	padding-right: 6px;
+	border-right: 1px solid #b0b0b0;
+}
+.xiaochanghe .shiyi:first-child{
+	padding-left: 0;
+}
+.xiaochanghe .shiyi:last-child{
+	border-right: 0;
+}
+.shiyi:hover{
+    color: #ff6700;
+}
+.xiaochanghe2{
+	width: 610px;
+	height: 14px;
+	margin-left: 10px;
+	margin-top: 6px;
+	float: left;
+}
+.shiyi2{
+	font-size: 12px;
+	color: #b6b0c0;
+	line-height: 14px;
+	float: left;
+}
+.shiyi3{
+	float: left;
+	font-size: 12px;
+	color: #b6b0c0;
+	line-height: 14px;
+}
+.shiyi3:hover{
+    color: #ff6700;
+}
+.shiyi4{
+	font-size: 12px;
+	color: #b6b0c0;
+	line-height: 14px;
+	float: left;
+	margin-left: 4px;
+}
+.shiyi5{
+	float: left;
+	font-size: 12px;
+	color: #b6b0c0;
+	line-height: 14px;
+	margin-left: 4px;
+}
+.shiyi5:hover{
+    color: #ff6700;
+}
+.xiaochanghe3{
+	width: 600px;
+	height: 14px;
+	margin-left: 10px;
+	margin-top: 6px;
+	float: left;
+}
+.shiyi6{
+	font-size: 12px;
+	color: #b6b0c0;
+	line-height: 14px;
+	float: left;
+}
+.situ{
+	width: 368px;
+	height: 28px;
+	float: right;
+	margin-top: 33px;
+}
+.tuyi{
+	display: block;
+	width: 84px;
+    height: 28px;
+    float: left;
+    margin-right: 8px;
+}
+.tuyi2{
+	margin-right: 0;
+}
+.xiatu{
+	width: 100%;
+	height: 79px;
+	float: left;
+	font-size: 18px;
+	color: #cacaca;
+	text-align: center;
+	line-height: 79px;
+}
+
+
+
+/* 小米最下面结束 */
+
